@@ -59,6 +59,7 @@ public class MyFrame extends JFrame implements ActionListener{
    @Override
    public void actionPerformed(ActionEvent e) {
 	   //눌러진 버튼의 action command 읽어오기
+	   
 	   String cmd = e.getActionCommand();
 	   
 	   /*

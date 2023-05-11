@@ -13,8 +13,8 @@ import test.mypac.Car;
  */
 public class MainClass01 {
 	public static void main(String[] args) {
-		// String type 을 저장할수 있는 ArrayList 객체생성해서 참조값을 names 에 담아 보세요
-		ArrayList<String> names=new ArrayList<>();
+		// String type 을 저장할수 있는 ArrayList 객체생성해서 참조값을 names 에 담아 보세요 
+		ArrayList<String> names = new ArrayList<>();
 
 		// "김구라" , "해골", "원숭이"  3개의 String type 을 저장해 보세요.
 		names.add("김구라");
@@ -30,5 +30,5 @@ public class MainClass01 {
 		int size=names.size();
 		//저장된 모든 아이템 전체 삭제
 		names.clear();
-	}
+	}                                                   
 }
