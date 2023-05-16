@@ -28,7 +28,7 @@ public class MainClasspt extends JFrame implements ActionListener{
 	public MainClasspt(String title) {
 		super(title);
 	    //초기 위치와 크기 설정
-	    setBounds(100, 100, 900, 200);
+	    setBounds(100, 100, 800, 400);
 	    setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	    setLayout(new FlowLayout());
 	    
